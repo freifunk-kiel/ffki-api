@@ -16,7 +16,7 @@
     "email": "freifunk@lists.in-kiel.de",
     "phone": "+49 (0)431 562136",
     "irc": "irc://hackint.org/ffki",
-    "ml": "http://lists.in-kiel.de/cgi-bin/mailman/listinfo/freifunk",
+    "ml": "https://lists.in-kiel.de/mailman/listinfo/freifunk",
     "twitter": "@ff_Kiel"
   },
   "state": {
@@ -78,12 +78,12 @@
         "domainname": "ffki",
         "nameserver": [
           "ns0.ffki",
-          "ns01.ffki",
-          "ns02.ffki",
-          "ns03.ffki",
-          "ns04.ffki",
-          "ns05.ffki",
-          "ns06.ffki"
+          "ns1.ffki",
+          "ns2.ffki",
+          "ns3.ffki",
+          "ns4.ffki",
+          "ns5.ffki",
+          "ns6.ffki"
         ]
       }
     ],
