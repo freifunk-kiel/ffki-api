@@ -1,0 +1,113 @@
+{
+  "name": "Freifunk Kiel",
+  "url": "https://freifunk.in-kiel.de/",
+  "location": {
+    "city": "Kiel",
+    "country": "DE",
+    "lat": 54.341674,
+    "lon": 10.124802,
+    "address": {
+      "Name": "Toppoint e.V.",
+      "Street": "Fraunhofer Str. 2-4",
+      "Zipcode": "24118"
+    }
+  },
+  "contact": {
+    "email": "freifunk@lists.in-kiel.de",
+    "phone": "+49 (0)431 562136",
+    "irc": "irc://hackint.org/ffki",
+    "ml": "http://lists.in-kiel.de/cgi-bin/mailman/listinfo/freifunk",
+    "twitter": "@ff_Kiel"
+  },
+  "state": {
+    "nodes": 320,
+    "description": "Freifunk ist ein Projekt, über das Menschen wie du und ich ein stadtweites drahtloses Datennetz aufbauen. Das Netz soll die freie Kommunikation innerhalb der ganzen Stadt und, mithilfe von Links zu anderen Städten, auch überregional ermöglichen. Um dies zu erreichen, werden sogenannte Freifunkknoten - das sind Router mit den Antennen, ähnlich denen, die du von anderen drahtlosen Internetzugängen schon kennst - von Freiwilligen an vielen Orten in der Stadt betrieben. Jedes WLAN-fähige Gerät, also beispielsweise Handy oder Notebook, kann sich in der Nähe eines solchen Knotens mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung.",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2016-11-24T06:11:26.703Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://mesh.freifunk.in-kiel.de/",
+      "interval": "120",
+      "technicalType": "hopglass",
+      "mapType": "geographical"
+    }
+  ],
+  "socialprojects": {
+    "number": 10,
+    "website": "https://wiki.freifunk.in-kiel.de/wiki/Freifunk_Kiel",
+    "contact": "freifunk@lists.in-kiel.de"
+  },
+  "support": {
+    "club": {
+      "name": "Offenenetze Nord e.V.",
+      "street": "Fraunhofer Str. 2-4",
+      "zip": "24118",
+      "city": "Kiel",
+      "url": "https://offenenetzenord.de/",
+      "email": "onn@offenenetzenord.de"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE81 7002 2200 0020 1472 37",
+        "BIC": "FDDODEMMXXX",
+        "usage": "Freifunk Kiel"
+      }
+    }
+  },
+  "privacy": {
+    "policyurl": "https://freifunk.in-kiel.de/nutzungsbedingungen.html"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "https://freifunk.in-kiel.de/firmware.html",
+      "docs": "http://git.freifunk.in-kiel.de/ffki-site/",
+      "vpnaccess": "mail",
+      "registrationurl": "https://lists.in-kiel.de/mailman/listinfo/freifunk-keys",
+      "orgrestrictions": "Siehe: http://freifunk.in-kiel.de/nutzungsbedingungen.html"
+    },
+    "dns": [
+      {
+        "domainname": "ffki",
+        "nameserver": [
+          "ns0.ffki",
+          "ns01.ffki",
+          "ns02.ffki",
+          "ns03.ffki",
+          "ns04.ffki",
+          "ns05.ffki",
+          "ns06.ffki"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fda1:384a:74de:4242::0/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.116.0.0/24"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational"
+    ]
+  },
+  "api": "0.4.14"
+}
