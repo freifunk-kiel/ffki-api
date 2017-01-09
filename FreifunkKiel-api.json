@@ -37,6 +37,11 @@
       "interval": "120",
       "technicalType": "hopglass",
       "mapType": "geographical"
+    },
+    {
+      "url": "https://hopglass.freifunk.in-kiel.de/nodelist.json",
+      "interval": "2",
+      "technicalType": "nodelist"
     }
   ],
   "socialprojects": {
